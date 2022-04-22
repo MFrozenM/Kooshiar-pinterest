@@ -1,0 +1,47 @@
+.load-enter {
+    transform: translateY(25px);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.load-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.load-exit {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.load-exit-active {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.save-enter {
+    transform: scale(0.9);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.save-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.save-exit {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.save-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}

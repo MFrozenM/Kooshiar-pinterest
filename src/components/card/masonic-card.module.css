@@ -1,0 +1,199 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    /*overflow: hidden;*/
+    background-color: transparent;
+    /*min-width: 100%;*/
+    /*background-color: #61dafb;*/
+}
+
+.image:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.image {
+    border-radius: 20px;
+    transition: filter 0.3s;
+    /*object-fit: cover;*/
+    box-shadow: rgba(149, 157, 165, 0.2) 0 4px 12px;
+}
+
+.desc_p {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    overflow: hidden;
+    z-index: 11;
+    position: absolute;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.desc {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 5px;
+    line-height: 20px;
+    overflow: hidden;
+    z-index: 10;
+    background-color: rgba(17, 17, 17, 0.49);
+    position: absolute;
+}
+
+.desc:hover {
+    cursor: pointer;
+}
+
+.desc:hover + img {
+    filter: brightness(70%);
+}
+
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    padding: 10px 5px;
+    overflow: hidden;
+    display: flex;
+    top: 20px;
+    right: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    transition: filter 0.3s;
+    background-color: rgba(220, 27, 27, 0.96);
+    position: absolute;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.btn:hover ~ img {
+    filter: brightness(70%);
+}
+
+
+.pin {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    border-radius: 125px;
+    overflow: hidden;
+    display: flex;
+    bottom: 20px;
+    left: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+    transition: filter 0.3s;
+}
+
+.pin:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.pin:hover ~ img {
+    filter: brightness(70%);
+}
+
+.pin_icon {
+    fill: white;
+}
+
+.upload {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    border-radius: 125px;
+    overflow: hidden;
+    display: flex;
+    bottom: 20px;
+    right: 90px;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+    transition: filter 0.3s;
+}
+
+.upload_icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.upload:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.upload:hover ~ img {
+    filter: brightness(70%);
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    border-radius: 125px;
+    overflow: hidden;
+    display: flex;
+    bottom: 20px;
+    right: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+    transition: filter 0.3s;
+}
+
+.menu_icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+
+.menu:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.menu:hover ~ img {
+    filter: brightness(70%);
+}
